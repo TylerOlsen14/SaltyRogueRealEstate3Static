@@ -1,12 +1,16 @@
 import React from "react";
-// import Finn from '../assets/Finn';
+import Finn from '../assets/Images/Finn.jpg';
+import Logo from '../assets/Images/logo.jpg'
 
 function Header() {
   return (
     <div>
-      {/* <img src={Finn} /> */}
       <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand" href="#">
+        <img
+          src={Logo}
+          style={{width:'2rem', marginRight:'1rem'}}
+        />
           Salty Rogue Real Estate
         </a>
         <button
