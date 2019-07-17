@@ -14,7 +14,7 @@ export default ({ children }) => (
     <div className="layoutBody">
       {children}      
     </div>
-    <div className="siteLinks">
+    <div className="footer">
       {/* <SaltyFooter/> */}
     {/* </div>
     <div > */}

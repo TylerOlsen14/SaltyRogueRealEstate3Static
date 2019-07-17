@@ -1,3 +1,7 @@
-main {
-  background-image: '../assets/Images/close-up-door-focus-101808.jpg'
+body {
+  background-image: url(close-up-door-focus-101808.jpg);
+  background-color: green;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200%;
 }
