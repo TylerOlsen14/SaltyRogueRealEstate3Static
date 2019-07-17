@@ -51,22 +51,22 @@ function Header() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown
+                Properties
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">
-                  Action
+                <a class="dropdown-item" href="/EmmaStreet">
+                  Emma Street
                 </a>
-                <a class="dropdown-item" href="#">
-                  Another action
+                <a class="dropdown-item" href="/LaurelStreet">
+                  Laurel Street
                 </a>
-                <div class="dropdown-divider" />
+                {/* <div class="dropdown-divider" />
                 <a class="dropdown-item" href="#">
                   Something else here
-                </a>
+                </a> */}
               </div>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a
                 class="nav-link disabled"
                 href="#"
@@ -75,7 +75,7 @@ function Header() {
               >
                 Disabled
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
