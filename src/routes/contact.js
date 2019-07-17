@@ -1,14 +1,12 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import Form from '../components/form'
+import Layout from "../components/Layout"
+import Form from '../components/Form'
 
 const Contact = () => {
   return(
     <Layout>
-      <Form>
-        
-      </Form>
+      <Form />
     </Layout>
   )
 }

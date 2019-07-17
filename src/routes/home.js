@@ -1,11 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from 'react-router-dom'
+// import './index.css'
 
-import './index.css'
-
-import Layout from '../components/layout'
-
-import { paths } from './'
+import Layout from '../components/Layout'
 
 const Home = () => (
   <Layout>
@@ -14,13 +11,13 @@ const Home = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div className="HomeLink">
-      <Link to={paths.about}>Go to About</Link>
-      <Link to={paths.contact}>Contact US!!!</Link>
-      <Link to={paths.LaurelStreet}>Go to LaurelStreet</Link>
-      <Link to={paths.EmmaStreet}>Go to EmmaStreet</Link>
+      <Link to="./about">Go to About</Link>
+      <Link to="./contact">Contact US!!!</Link>
+      <Link to="./LaurelStreet">Go to LaurelStreet</Link>
+      <Link to="./EmmaStreet">Go to EmmaStreet</Link>
     </div>
     <div className="hidden">
-      <Link to={paths.success}>SUCCESS!!!</Link>
+      <Link to="./success">SUCCESS!!!</Link>
     </div>
   </Layout>
 )

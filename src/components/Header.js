@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
         <img
           src={Logo}
           style={{width:'2rem', marginRight:'1rem'}}
@@ -27,13 +27,18 @@ function Header() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 Home <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Link
+              <a class="nav-link" href="/About">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contact">
+                Contact
               </a>
             </li>
             <li class="nav-item dropdown">
