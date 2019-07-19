@@ -7,15 +7,26 @@
   flex-direction: row;
   width: 100%;
   background-color: white;
-}
-nav{
+  margin-top: 3rem;
 }
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   position: fixed;
   height: 100px;
   bottom: 0;
-  color: white;
   text-align: left;
+  /* align-items: center; */
+}
+.firm{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.title{
+  align-self: center;
+}
+.contactContainer{
+  margin-left: 2rem;
 }

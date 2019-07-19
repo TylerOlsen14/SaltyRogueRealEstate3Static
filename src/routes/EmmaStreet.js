@@ -9,22 +9,25 @@ import Layout from '../components/Layout'
 
 
 function EmmaStreet() {
-  const [index, setIndex] = React.useState(0)
+  const [index, setIndex] = React.useState(0);
   return (
     <Layout>
       <Gallery
         style={{
-          width: '100vw',
-          background: 'black'
+          width: '90vw',
+          height: '90vh',
+          background: 'black',
+          margin: 'auto'
         }}
         index={index}
         onRequestChange={i => {
           setIndex(i)
         }}
       >
-        {images.map(image => (
+        {images.map(img => (
           <GalleryImage
-            src={image}
+            src={img.src}
+            key={img.src}
             objectFit="contain"
           />
         ))}

@@ -8,11 +8,21 @@ function Footer() {
   return (
     <div className="footer">
       {/* <nav class="navbar navbar-expand-lg container"> */}
-      <nav className="container">
-        <a class="navbar-brand" href="#">
-          <img src={Finn} style={{ width: "5rem", marginRight: "1rem" }} />
-          Tucker & Co. Web Design
-        </a>
+      <nav
+        className="container"
+        style={{
+          display:"flex",
+          flexDirection:"row",
+        }}
+      >
+      <div className="firm">
+        <div className="img">
+            <img src={Finn} style={{ width: "5rem", marginRight: "1rem" }} />
+        </div>
+        <div className="title">
+            Tucker, Finn, & Co.<br/> Web Design
+        </div>
+      </div>
         <div className="contactContainer">
           <strong>
             <p>
