@@ -1,5 +1,4 @@
 import React from "react";
-import Finn from '../assets/Images/Finn.jpg';
 import Logo from '../assets/Images/logo.jpg'
 
 function Header() {

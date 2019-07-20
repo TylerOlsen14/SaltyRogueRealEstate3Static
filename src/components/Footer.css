@@ -1,23 +1,23 @@
 .footer{
-  position: fixed;
   height: 100px;
   width: 100%;
-  bottom: 0;
   display: flex;
   flex-direction: row;
   width: 100%;
   background-color: white;
   margin-top: 3rem;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  position: fixed;
-  height: 100px;
+  justify-content: space-between;
   bottom: 0;
   text-align: left;
-  /* align-items: center; */
+}
+.SaltyRogue{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.captainFinn{
+  display: flex;
+  flex-direction: row;
 }
 .firm{
   display: flex;
@@ -29,4 +29,25 @@
 }
 .contactContainer{
   margin-left: 2rem;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 1126px){
+  .footer{
+    height: 200px;
+    flex-direction: column;
+  }
+  .titleFinn{
+    margin-right: 2.5rem;
+    align-self: center;
+  }
+  .captainFinn{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .captainFinn, .SaltyRogue{
+    flex-direction: column;
+  }
 }
