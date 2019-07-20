@@ -14,17 +14,20 @@ function LaurelStreet() {
     <Layout>
       <Gallery
         style={{
-          width: '100vw',
-          background: 'black'
+          width: '90vw',
+          height: '90vh',
+          background: 'black',
+          margin: 'auto'
         }}
         index={index}
         onRequestChange={i => {
           setIndex(i)
         }}
       >
-        {images.map(image => (
+        {images.map(img => (
           <GalleryImage
-            src={image}
+            src={img.src}
+            key={img.src}
             objectFit="contain"
           />
         ))}
