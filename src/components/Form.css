@@ -1,0 +1,28 @@
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 1000px;
+}
+.FormClass{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.NameNumber{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.inputQuestions{
+  background-color: green;
+  width: 500px;
+  padding: 1rem; 
+}
+.selections{
+  background-color: blue;
+  width: 500px;
+  margin-left: 1rem;
+  padding: 1rem;
+}
